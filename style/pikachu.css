@@ -68,13 +68,32 @@ body {
 	background: #ffe658;
 	
 	border-top-left-radius: 74% 66%;
-	border-top-right-radius: 50% 50%;
+	border-top-right-radius: 58% 58%;
 	border-bottom-left-radius: 70% 46%;
-	border-bottom-right-radius: 50% 50%;
+	border-bottom-right-radius: 60% 62%;
 
 	position: absolute;
 	top: 119px;
 	left: 70px;
+
+	opacity: 0.5;
+}
+
+.right-ear {
+	width: 40px;
+	height: 140px;
+	background: #ffe658;
+
+	border-top-left-radius: 70px 160%;
+	border-top-right-radius: 70px 160%;
+	border-bottom-left-radius: 70px 80%;
+	border-bottom-right-radius: 70px 120%;
+
+	position: absolute;
+	top: 22px;
+	left: 230px;
+	
+	transform: rotate(30deg);
 
 	opacity: 0.5;
 }
