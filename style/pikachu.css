@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  margin: 0px;
+  top: 0px;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: pink;
+}
+
+.pikachu {
+	width: 500px;
+	height: 500px;
+	background-size: 500px 500px;
+
+	position: relative;
+	margin: 0 auto;
+	top: 200px;
+
+	border: solid 1px white;
+}
+
+.oriPic {
+	width: 500px;
+	height: 500px;
+	background-size: contain;
+	background-image: url(../image/pikachuOri.png);
+	background-repeat: no-repeat;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	background-size: 500px 500px;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.left-ear {
+	width: 40px;
+	height: 140px;
+	background: #ffe658;
+
+	border-top-left-radius: 70px 160%;
+	border-top-right-radius: 70px 160%;
+	border-bottom-left-radius: 70px 80%;
+	border-bottom-right-radius: 70px 120%;
+
+	position: absolute;
+	top: 22px;
+	left: 68px;
+	
+	transform: rotate(-17deg);
+
+	opacity: 0.5;
+}
+
+.head {
+	width: 180px;
+	height: 174px;
+	background: #ffe658;
+	
+	border-top-left-radius: 74% 66%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-left-radius: 70% 46%;
+	border-bottom-right-radius: 50% 50%;
+
+	position: absolute;
+	top: 119px;
+	left: 70px;
+
+	opacity: 0.5;
+}
