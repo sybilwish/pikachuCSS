@@ -109,25 +109,27 @@ body {
 }
 
 .bodyUpper {
-	width: 187px;
-	height: 190px;
+	width: 186px;
+	height: 220px;
 	background: #ffe658;
 	
-	border-top-left-radius: 60% 40%;
-	border-top-right-radius: 60% 60%;
+	border-top-left-radius: 80% 120%;
+	border-top-right-radius: 10% 100%;
 	border-bottom-left-radius: 50% 50%;
-	border-bottom-right-radius: 50% 50%;
+	border-bottom-right-radius: 60% 40%;
 
 	position: absolute;
-	top: 0px;
-	left: 4px;
+	top: -40px;
+	left: 0px;
 	
+	transform: rotate(-5deg);
+
 	opacity: 0.5;
 }
 
 .pikachuAss {
 	width: 100px;
-	height: 20px;
+	height: 30px;
 	background: #ffe658;
 
 	border-top-left-radius: 5% 5%;
@@ -137,8 +139,10 @@ body {
 
 	position: relative;
 	margin: 0 auto;
-	top: 180px;
+	top: 208px;
 	right: 10px;
+
+	transform: rotate(7deg);
 }
 
 .leg-left {
