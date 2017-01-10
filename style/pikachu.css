@@ -58,8 +58,6 @@ body {
 	left: 68px;
 	
 	transform: rotate(-17deg);
-
-	opacity: 0.5;
 }
 
 .cheek {
@@ -75,8 +73,6 @@ body {
 	position: absolute;
 	top: 119px;
 	left: 70px;
-
-	opacity: 0.5;
 }
 
 .right-ear {
@@ -94,15 +90,13 @@ body {
 	left: 236px;
 	
 	transform: rotate(30deg);
-
-	opacity: 0.5;
 }
 
 .pikachuBody {
 	width: 187px;
 	height: 198px;
 	background-size: 187px 198px;
-/*border: solid 1px red;*/
+
 	position: absolute;
 	top: 225px;
 	left: 74px;
@@ -123,8 +117,6 @@ body {
 	left: 0px;
 	
 	transform: rotate(-5deg);
-
-	opacity: 0.5;
 }
 
 .pikachuAss {
@@ -158,25 +150,23 @@ body {
 	position: absolute;
 	top: 110px;
 	left: -10px;
-
-	opacity: 0.5;
 }
 
 .foot-left {
-	width: 70px;
-	height: 20px;
+	width: 62px;
+	height: 18px;
 	background: #ffe658;
 	
-	border-top-left-radius: 10% 10%;
-	border-top-right-radius: 10% 10%;
-	border-bottom-left-radius: 10% 10%;
-	border-bottom-right-radius: 10% 10%;
+	border-top-left-radius: 80% 100%;
+	border-top-right-radius: 60% 60%;
+	border-bottom-left-radius: 20% 30%;
+	border-bottom-right-radius: 40% 60%;
 
 	position: absolute;
-	top: 90px;
-	left: 0px;
-
-	opacity: 0.5;
+	top: 87px;
+	left: 8px;
+	
+	transform: rotate(-5deg);
 }
 
 .leg-right {
@@ -192,24 +182,114 @@ body {
 	position: absolute;
 	top: 84px;
 	right: -16px;
-
-	opacity: 0.5;
 }
 
 .foot-right {
-	width: 30px;
-	height: 22px;
+	width: 26px;
+	height: 28px;
 	background: #ffe658;
 
-
-	border-top-left-radius: 10% 10%;
-	border-top-right-radius: 10% 10%;
-	border-bottom-left-radius: 10% 10%;
-	border-bottom-right-radius: 10% 10%;
+	border-top-left-radius: 60% 40%;
+	border-top-right-radius: 100% 120%;
+	border-bottom-left-radius: 90% 60%;
+	border-bottom-right-radius: 80% 60%;
 
 	position: absolute;
-	top: 120px;
-	right: 30px;
+	top: 114px;
+	right: 32px;
+	
+	transform: rotate(-13deg);
+}
 
-	opacity: 0.5;
+.pikachuTail {
+	width: 280px;
+	height: 280px;
+
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+
+.tailElement-01 {
+    width: 230px;
+	height: 0;
+
+	border-top: 60px solid #ffe658;
+    border-left: 18px solid transparent;
+    border-right: 30px solid transparent; 
+	
+	position: absolute;
+	top: 40px;
+	right: -26px;
+	
+	transform: rotate(-24deg);
+}
+
+.tailElement-02 {
+	width: 0;
+	height: 0;
+
+	border-bottom: 66px solid  #ffe658;
+    border-left: 160px solid transparent;
+
+    position: absolute;
+	top: 58px;
+	right: -1px;
+	
+	transform: rotate(2deg);
+}
+
+.tailElement-03-container {
+	position: absolute;
+	top: 74px;
+	left: 106px;
+
+	transform: rotate(50deg);
+}
+
+.tailElement-03 {
+    width: 126px;
+	height: 36px;
+
+	background: #ffe658;
+	transform: skew(-30deg);
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.tailElement-04-container {
+	position: absolute;
+	top: 186px;
+	left: 81px;
+
+	transform: rotate(-25deg);
+}
+
+.tailElement-04 {
+	width: 100px;
+	height: 42px;
+
+	background: #ffe658;
+	transform: skew(16deg);
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.tailElement-05 {
+	width: 100px;
+	height: 0;
+	
+	border-left: 40px solid transparent;
+	border-bottom: 50px solid #ffe658;
+	border-right: 40px solid transparent;
+
+	position: absolute;
+	top: 188px;
+	left: 46px;
+	
+	transform: rotate(5deg);
 }
