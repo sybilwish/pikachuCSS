@@ -60,7 +60,7 @@ body {
 	transform: rotate(-17deg);
 }
 
-.cheek {
+.face {
 	width: 180px;
 	height: 174px;
 	background: #ffe658;
@@ -90,6 +90,91 @@ body {
 	left: 236px;
 	
 	transform: rotate(30deg);
+}
+
+
+.face-container {
+	width: 180px;
+	height: 90px;
+	background-size: 180px 90px;
+/*
+	border:solid 1px red;*/
+
+	position: absolute;
+	top: 180px;
+	left: 70px;
+}
+
+.left-eye {
+	width: 22px;
+	height: 32px;
+	background: #442b19;
+
+	border-radius: 50%;
+
+	position: absolute;
+	top: 6px;
+	left: 16px;
+	
+	transform: rotate(6deg);
+}
+
+.right-eye {
+	width: 34px;
+	height: 30px;
+	background: #442b19;
+
+	border-radius: 50%;
+
+	position: absolute;
+	top: 10px;
+	right: 44px;
+}
+
+.nose {
+	width: 6px;
+	height: 6px;
+	background: #442b19;
+
+	border-radius: 50%;
+
+	position: absolute;
+	top: 44px;
+	left: 60px;
+}
+
+.left-cheek {
+	width: 20px;
+	height: 46px;
+	background: #d75e35;
+	
+	border-top-left-radius: 90% 100%;
+	border-top-right-radius: 100% 100%;
+	border-bottom-left-radius: 90% 100%;
+	border-bottom-right-radius: 100% 100%;
+	
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	
+	transform: rotate(-5deg);
+}
+
+.right-cheek {
+	width: 42px;
+	height: 52px;
+	background: #d75e35;
+
+	border-top-left-radius: 90% 100%;
+	border-top-right-radius: 100% 110%;
+	border-bottom-left-radius: 90% 100%;
+	border-bottom-right-radius: 120% 100%;
+	
+	position: absolute;
+	top: 36px;
+	right: 13px;
+	
+	transform: rotate(17deg);
 }
 
 .pikachuBody {
@@ -234,7 +319,7 @@ body {
 
     position: absolute;
 	top: 58px;
-	right: -1px;
+	right: 0px;
 	
 	transform: rotate(2deg);
 }
