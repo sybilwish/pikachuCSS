@@ -45,7 +45,7 @@ body {
 
 .left-ear {
 	width: 40px;
-	height: 140px;
+	height: 120px;
 	background: #ffe658;
 
 	border-top-left-radius: 70px 160%;
@@ -53,13 +53,14 @@ body {
 	border-bottom-left-radius: 70px 80%;
 	border-bottom-right-radius: 70px 120%;
 	
-	border-top: solid 34px #1e1e19;
+	border-top: solid 30px #1e1e19;
 
 	position: absolute;
-	top: 22px;
-	left: 68px;
+	top: 18px;
+	left: 100px;
 	
-	transform: rotate(-17deg);
+	transform: rotate(-20deg);
+	transform-origin: right bottom;
 }
 
 .face {
@@ -92,11 +93,11 @@ body {
 	border-top: solid 38px #1e1e19;
 
 	position: absolute;
-	top: 22px;
-	left: 236px;
+	top: 0px;
+	left: 180px;
 	
 	transform: rotate(30deg);
-
+	transform-origin: left bottom;
 }
 
 
@@ -164,8 +165,6 @@ body {
 	left: 4px;
 
 	transform: rotate(22deg);
-
-	opacity: 0.7;
 }
 
 .right-eye-light {
@@ -446,10 +445,13 @@ body {
 	position: absolute;
 	top: 130px;
 	left: 150px;
+
+	transform: rotate(0deg);
+	transform-origin: left bottom;
 }
 
 .tailElement-01 {
-    width: 230px;
+    width: 180px;
 	height: 0;
 
 	border-top: 60px solid #ffe658;
@@ -467,13 +469,13 @@ body {
 	width: 0;
 	height: 0;
 
-	border-bottom: 66px solid  #ffe658;
-    border-left: 160px solid transparent;
+	border-bottom: 70px solid #ffe658;
+    border-left: 162px solid transparent;
 
     position: absolute;
-	top: 58px;
+	top: 54px;
 	right: 0px;
-	
+
 	transform: rotate(2deg);
 }
 
@@ -527,7 +529,123 @@ body {
 
 	position: absolute;
 	top: 190px;
-	left: 48px;
+	left: -28px;
 	
 	transform: rotate(5deg);
+}
+
+/* Animation: Tail */
+.pikachuTail {
+	-webkit-animation-name: tail-wobble;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: infinite;
+
+	animation-name: tail-wobble;
+	animation-delay: 0.5s;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes tail-wobble {
+	50% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	} 
+}
+
+@keyframes tail-wobble {
+	50% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	} 
+}
+
+.tail-wobble {
+	-webkit-animation-name: tail-wobble;
+	animation-name: tail-wobble;
+}
+
+/* Animation: Left Ear */
+.left-ear {
+	-webkit-animation-name: left-ear-wobble;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-timing-function: ease-in;	
+	-webkit-animation-iteration-count: infinite;
+	
+	animation-name: left-ear-wobble;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes left-ear-wobble {
+
+  50% {
+	transform: rotate(0deg);
+  }
+  100% {
+  	transform: rotate(-20deg);
+  }
+
+}
+
+@keyframes left-ear-wobble {
+
+  50% {
+	transform: rotate(0deg);
+  }
+  100% {
+  	transform: rotate(-20deg);
+  }
+
+}
+
+.left-ear-wobble {
+  -webkit-animation-name: left-ear-wobble;
+  animation-name: left-ear-wobble;
+}
+
+/* Animation: Right Ear */
+.right-ear {
+	-webkit-animation-name: right-ear-wobble;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: infinite;
+	
+	animation-name: right-ear-wobble;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes right-ear-wobble {
+
+  50% {
+	transform: rotate(15deg);
+  }
+  100% {
+  	transform: rotate(30deg);
+  }
+
+}
+
+@keyframes right-ear-wobble {
+
+  50% {
+	transform: rotate(15deg);
+  }
+  100% {
+  	transform: rotate(30deg);
+  }
+
+}
+
+.right-ear-wobble {
+  -webkit-animation-name: right-ear-wobble;
+  animation-name: right-ear-wobble;
 }
